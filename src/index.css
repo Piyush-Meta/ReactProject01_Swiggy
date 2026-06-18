@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 40px;
+    height: 80px;
+
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items ul li {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-items ul li:hover {
+    color: #ff5200;
+}
+/* Body */
+
+.body {
+  padding: 20px 40px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5200;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Restaurant Container */
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* Restaurant Card */
+
+.restaurant-card {
+  width: 260px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.restaurant-card:hover {
+  transform: scale(0.97);
+  cursor: pointer;
+}
+
+.restaurant-image {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.restaurant-content {
+  padding: 12px;
+}
+
+.restaurant-content h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.restaurant-content p {
+  font-size: 14px;
+  color: #686b78;
+  margin-bottom: 4px;
+}
+
+.rating-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.shimmer-container {
+  display: flex;
+  gap: 24px;
+}
+.shimmer-card {
+  width: 260px;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  animation: shimmer 1.5s infinite linear;
+}
+.login-btn{
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5200;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search-btb{
+  margin-right: 10px;
+  padding: 8px 10px;
+  border: none;
+  background-color: #ff5200;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.user-profile{
+  padding :10px;
+  border:1 px solid #e0e0e0;
+  border-radius: 8px;
+}
